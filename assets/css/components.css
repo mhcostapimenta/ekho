@@ -1,0 +1,122 @@
+.btn-documentos {
+  font-family: 'NeueHaasGroteskText Pro', sans-serif;
+  font-size: .9rem;
+  color: #ffffff;
+  transition: all .3s ease-out;
+}
+
+@media (min-width: 768px) {
+  .btn-documentos {
+    font-size: 1.2rem;
+  }
+}
+
+.btn-documentos:hover {
+  color: #1278CF !important;
+}
+
+body.home .btn-documentos:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+body.empresas .btn-documentos:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-documentos i {
+  color: #1278CE;
+  margin-right: 4px;
+  transition: all .3s ease-out;
+}
+
+body.home .btn-documentos:hover i {
+  color: #AECB17;
+}
+
+body.empresas .btn-documentos:hover i {
+  color: #fff;
+}
+
+.btn-documentos.active {
+  color: #1278CF !important;
+}
+
+body.home .btn-documentos.active i {
+  color: #AECB17;
+}
+
+body.empresas .btn-documentos.active i {
+  color: #fff;
+}
+
+.btn-empresas {
+  font-family: 'NeueHaasGroteskText Pro', sans-serif;
+  font-size: .9rem;
+  color: #ffffff;
+  transition: all .3s ease-out;
+  transform: translateX(0);
+}
+
+@media (min-width: 768px) {
+  .btn-empresas {
+    font-size: 1.2rem;
+  }
+}
+
+body.home .btn-empresas i {
+  margin-left: 4px;
+  color: #AECB17;
+  opacity: 0;
+  transition: all .3s ease-out;
+}
+
+body.home .btn-empresas:hover {
+  color: #1278cf;
+  transform: translateX(-12px);
+}
+
+body.home .btn-empresas:hover i {
+  opacity: 1;
+}
+
+body.empresas .btn-empresas i {
+  margin-left: 6px;
+  color: #fff;
+  opacity: 0;
+  transition: all .3s ease-out;
+}
+
+body.empresas .btn-empresas:hover {
+  color: #1278cf;
+  transform: translateX(-12px);
+}
+
+body.empresas .btn-empresas:hover i {
+  opacity: 1;
+}
+
+
+body.home .btn-empresas:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+body.empresas .btn-empresas:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-close-nav {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 32px;
+  height: 32px;
+  background-image: url("../../assets/img/btn_close.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
